@@ -6,9 +6,20 @@ public class Problem003
     /// Returns the largest prime factor of the number 600851475143.
     /// </summary>
     /// <returns></returns>
-    public int LargestPrimeFactor(long number)
+    public static long LargestPrimeFactor(long number)
     {
-        return 0;
+        long f = 2;
+        long n = number;
+
+        while (f * f <= n)
+        {
+            if (n % f == 0)
+                n /= f;
+            else
+                f++;
+        }
+
+        return n > 1 ? n : f;
     }
 
     public static string Execute()
