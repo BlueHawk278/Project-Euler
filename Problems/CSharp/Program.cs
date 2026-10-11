@@ -4,8 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        //Problem001.Execute();
-        //Problem002.Execute();
-        Console.WriteLine(Problem003.Execute());
+        //Console.WriteLine(Problem001.Execute());
+        //Console.WriteLine(Problem002.Execute());
+        //Console.WriteLine(Problem003.Execute());
+        //Console.WriteLine(Problem004.Execute());
     }
 }

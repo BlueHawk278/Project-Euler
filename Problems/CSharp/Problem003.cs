@@ -22,8 +22,5 @@ public class Problem003
         return n > 1 ? n : f;
     }
 
-    public static string Execute()
-    {
-        return "The largest prime factor of the number 600851475143 is: " + LargestPrimeFactor(600851475143);
-    }
+    public static string Execute() => "The largest prime factor of the number 600851475143 is: " + LargestPrimeFactor(600851475143);
 }

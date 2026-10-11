@@ -21,8 +21,5 @@ public class Problem001
         return sum;
     }
 
-    public static string Execute()
-    {
-        return "The sum of all the multiples of 3 or 5 below 1000 is: " + SumOfMultiples3Or5(1000);
-    }
+    public static string Execute() => "The sum of all the multiples of 3 or 5 below 1000 is: " + SumOfMultiples3Or5(1000);
 }

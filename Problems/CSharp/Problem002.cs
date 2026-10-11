@@ -26,8 +26,5 @@ public class Problem002
         return sum;
     }
 
-    public static string Execute()
-    {
-        return $"The sum of all the even fibonacci numbers below 4 million is: {SumEvenFibonacciNumbers(4000000)}";
-    }
+    public static string Execute() => $"The sum of all the even fibonacci numbers below 4 million is: {SumEvenFibonacciNumbers(4000000)}";
 }
