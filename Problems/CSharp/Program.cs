@@ -8,5 +8,6 @@ public class Program
         //Console.WriteLine(Problem002.Execute());
         //Console.WriteLine(Problem003.Execute());
         //Console.WriteLine(Problem004.Execute());
+        Console.WriteLine(Problem005.Execute());
     }
 }

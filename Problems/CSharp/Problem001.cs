@@ -2,10 +2,13 @@
 
 public class Problem001
 {
-    /// <summary>
+    ///
     /// Returns the sum of all the multiples of 3 or 5 below 1000.
+    /// 
+
+    /// <summary>
+    /// Loops through all the numbers from 1 -> 1000 and adds them to a running total if they are a multiple of 3 or 5
     /// </summary>
-    /// <returns></returns>
     public static int SumOfMultiples3Or5(int number)
     {
         int sum = 0;

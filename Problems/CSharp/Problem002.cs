@@ -2,15 +2,18 @@
 
 public class Problem002
 {
-    /// <summary>
+    ///
     /// Returns the sum of all the even fibonacci numbers below 4 million.
+    /// 
+
+    /// <summary>
+    /// Iterates through a standard fibonacci sequence adding to the total if the number is even.
     /// </summary>
-    /// <returns></returns>
-    public static int SumEvenFibonacciNumbers(long number)
+    public static long SumEvenFibonacciNumbers(long number)
     {
-        int sum = 0;
-        int a = 1;
-        int b = 2;
+        long sum = 0;
+        long a = 1;
+        long b = 2;
 
         while (b < number)
         {
@@ -18,7 +21,7 @@ public class Problem002
             {
                 sum += b;
             }
-            int temp = a;
+            long temp = a;
             a = b;
             b = temp + b;
         } 
