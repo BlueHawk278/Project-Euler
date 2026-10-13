@@ -1,6 +1,6 @@
 ﻿namespace CSharp;
 
-public class Problem004
+public static class Problem004
 {
     ///
     /// Find the largest palindrome made from the product of two 3-digit numbers.

@@ -1,6 +1,6 @@
 ﻿namespace CSharp;
 
-public class Problem001
+public static class Problem001
 {
     ///
     /// Returns the sum of all the multiples of 3 or 5 below 1000.

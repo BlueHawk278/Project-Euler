@@ -1,6 +1,6 @@
 ﻿namespace CSharp;
 
-public class Problem003 
+public static class Problem003 
 {
     ///
     /// Returns the largest prime factor of the number 600851475143

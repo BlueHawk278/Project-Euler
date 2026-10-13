@@ -1,6 +1,6 @@
 ﻿namespace CSharp;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
@@ -8,6 +8,7 @@ public class Program
         //Console.WriteLine(Problem002.Execute());
         //Console.WriteLine(Problem003.Execute());
         //Console.WriteLine(Problem004.Execute());
-        Console.WriteLine(Problem005.Execute());
+        //Console.WriteLine(Problem005.Execute());
+        Console.WriteLine(Problem006.Execute());
     }
 }
